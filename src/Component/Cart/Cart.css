@@ -1,0 +1,160 @@
+.itemCart {
+  background-color: #fff;
+  transition: 0.5s all ease;
+  border-radius: 10px;
+  height: 715px;
+  overflow: hidden;
+  margin-bottom: 71px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.itemCart img {
+  transition: all ease 0.5s;
+}
+.itemCart:hover img {
+  transform: scale(0.8);
+}
+.itemCart .homedivImg {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.itemCart .homedivImg img {
+  margin-right: 6px;
+}
+.itemCart .btn {
+  margin-top: 17px;
+  font-size: 13px;
+}
+.paymentDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.itemCart h3 {
+  font-size: 22px;
+}
+.inputDiv {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartinputnumber {
+  width: 35%;
+  border: none !important;
+  outline: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  text-align: center;
+  margin: auto;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 574px) {
+  .itemCart {
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  .itemCart .homedivImg {
+    width: 50%;
+    height: 44%;
+    margin: auto;
+  }
+}
+.cartprice {
+  width: 50%;
+}
+.cartprice img {
+  width: 70%;
+}
+
+.divPriceItem {
+  font-size: 37px;
+  color: var(--textcolor) !important;
+}
+.paymentDiv {
+  background-color: aqua;
+}
+
+.card {
+  /* overflow: hidden; */
+  width: 50%;
+  height: 300px !important;
+  position: absolute !important;
+  right: -650px;
+  /* display: none; */
+  transition: all 0.5s ease;
+  text-align: center;
+  box-shadow: 0 10px 30px 0 rgba(31, 34, 120, 0.1);
+}
+
+.motion {
+  overflow: hidden;
+  right: 0;
+}
+.paynow {
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  right: 20%;
+  margin-bottom: 38px;
+  font-weight: bolder;
+  padding: 40px !important;
+  color: var(--greencolor);
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 800;
+  outline: var(--textcolor) 1px solid;
+  border: var(--textcolor) 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(3deg);
+}
+.card img {
+  margin: auto;
+}
+.card button {
+  background-color: #fff;
+  border: 1px solid var(--textcolor);
+  border-radius: 5px;
+  color: var(--textcolor);
+  margin: 0 5px;
+  margin-top: 15px;
+}
+.card button:hover {
+  background-color: var(--textcolor);
+  color: #fff;
+}
+.inputDiv button {
+  background-color: var(--greencolor);
+  color: #fff;
+}
+.inputDiv button:hover {
+  background-color: var(--greencolor);
+  color: #fff;
+  transform: scaleZ(1.1);
+}
+.cartprice {
+  background-image: url("../../images/clothes.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cartofpay {
+  width: 200px;
+  position: absolute;
+  right: 8%;
+  top: 6%;
+}
+.cartofpay img {
+  width: 100%;
+}

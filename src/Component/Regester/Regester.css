@@ -1,0 +1,46 @@
+.background {
+  background-image: url("../../images/ecommerce-marketing-tips.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh !important;
+  height: auto !important;
+  position: relative;
+}
+.background .layer {
+  /* position: absolute; */
+  /* top: 0; */
+  background-color: #00000047;
+}
+form {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+}
+form button {
+  color: black !important;
+  background-color: var(--textcolor) !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.regesterbackground {
+  height: 100%;
+  width: 500px !important;
+  background-color: #a2b2ad8f;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10%; */
+  padding: 20px 0;
+  color: black;
+  box-shadow: 0 10px 30px 0 rgba(31, 34, 120, 0.1);
+  text-align: center;
+  font-weight: 500;
+  /* padding-top: 28px; */
+}
+
+form .alert {
+  width: 100% !important;
+  font-size: 15px;
+}
